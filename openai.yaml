@@ -1,4 +1,0 @@
-interface:
-  display_name: "飞书文档重建"
-  short_description: "把不可编辑的飞书文档重建为可编辑新文档：抓取、替换、验证、清理"
-  default_prompt: "Use $feishu-doc-rebuild to rebuild uneditable Feishu docs as editable cloud docs with matching format."
