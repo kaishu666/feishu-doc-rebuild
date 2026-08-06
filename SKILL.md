@@ -1,9 +1,11 @@
 ---
 name: feishu-doc-rebuild
-description: Rebuild uneditable or non-copyable Feishu docs as new editable Feishu cloud docs while preserving formatting, replacing specified text, and cleaning up test docs. Use when a user says a Feishu doc cannot be edited/copied, asks to organize its content into a new Feishu doc with matching format, or needs to move content into a docx/wiki project and replace certain terms.
+description: Use when a Feishu/Lark（飞书）document is read-only, protected, uneditable, or non-copyable（不能编辑、不能复制）and the user wants all its content organized/rebuilt into a new editable Feishu cloud doc or wiki page（飞书云文档/wiki）with matching formatting. Also use for batch rebuilding or organizing multiple Feishu docs, replacing specified text（替换文案）, remapping internal doc links, moving content into a Feishu wiki/cloud-doc or 教辅项目, preserving images and layout, and cleaning up generated test docs. Not for editing local Word/.docx files.
 ---
 
-# 飞书文档不可复制重建
+# 飞书文档重建（Feishu Doc Rebuild）
+
+将不可编辑、不可复制的飞书/Lark 文档，在用户已登录的租户内重建为新的可编辑云文档/wiki，保留格式、替换文案并重映射内部链接。
 
 ## 工作流
 
